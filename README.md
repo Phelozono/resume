@@ -5,20 +5,22 @@
       <p>An introductory personal statement.</p>
       <img src="images/headshot.jpeg">
 
- <ol>
+<ol>
       <li>
-      <a href="Education"target="_blank">Education</a>
+    <a href= "a">Education</a>
       </li>
       <li>
-      <a href="Experience"target="blank">Experience</a>
+      <a href="#middle-section>"Go to middle section>Experience</a>
       </li>
       <li>
       <a href="Skills"target="_blank">Skills</a>
-      </li>
+       </li>
       </ol>
+      
 
 <h2>Education</h2>
-    <h3>Intro to Web at<h3> <a href="https://www.codespace.co.za"target="_blank">Codespace Academy</a>
+    <h3>Intro to Web at</h3> <a href="https://www.codespace.co.za"target="_blank">Codespace Academy</a>
+ 
   <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</body>  
 <h3>Qualification 2</h3>
 <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

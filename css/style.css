@@ -129,4 +129,55 @@ main {
     background-position: center;
     position: relative;
 }
-  
+
+/*mobile device */
+
+
+@media  (max-width:650px){
+    body{background-color: rgb(255, 253, 253);
+        font-size: 3vw;
+    padding: 20px;
+    }
+
+    .hero-text{font: size 3vw;;
+    padding: 20px;}
+    
+    .hero-image{ font-size: 3vw;
+    padding: 20px;}
+    #top {
+        padding: 20px;
+        padding-bottom: 4rem;
+        height: 25vh;
+    
+}
+}
+
+/*tablet*/
+
+
+@media  (max-width:1000px){
+    body{background-color: rgb(255, 253, 253);
+        font-size: 3vw;
+    padding: 20px;
+    }
+
+    .hero-text{font-size: 2vw;
+        padding: 20px;}
+        
+        .hero-image{ font-size: 2vw;
+        padding: 2rem;}
+    }
+/* Laptop and desktop*/
+
+@media  (max-width:1000px){
+    body{background-color: rgb(255, 253, 253);
+        font-size: 3vw;
+    padding: 20px;
+    }
+
+    .hero-text{font-size: 2vw;
+        padding: 20px;}
+        
+        .hero-image{ font-size: 2vw;
+        padding: 20px;}
+}

@@ -5,132 +5,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Positioning</title>
+    <title>Grid Challenge</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/challenge.css">
 </head>
 
 <body>
-    <nav id="navbar">
-        <a class="nav-link" href="#services">Our Services</a> |
-        <a class="nav-link" href="#about">About Us</a> |
-        <a class="nav-link" href="projects">Project We Have Worked On</a>
-    </nav>
-    <header id="top">
-        <div>
-            <img id="header-image" src="./image/header-image.jpg" alt="header-image">
+
+    <!-- Header -->
+    <header id="header">
+       
+        <div class="logo-section">
+            <img src="./image/icon.svg" alt="Logo" width="40">
+            <h1>Home Market</h1>
         </div>
-        <div class="header-content">
-            <h1>Super Software</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta, laboriosam similique corrupti
-                dolorem dignissimos placeat ullam doloremque iure doloribus quod. Id ad delectus facilis veniam,
-                accusantium error autem ex?
-            </p>
-            <button>Contact Us</button>
-            <button>View our services</button>
-        </div>
+
+        <nav>
+            <a class="nav-button" href="template.html">
+                <button>Categories</button>
+            </a>
+            <a class="nav-button" href="#products">
+                <button>Products</button>
+            </a>
+
+            <a class="nav-button" href="#about">
+                <button>About</button>
+            </a>
+
+            <a class="nav-button" href="#contact">
+                <button>Contact</button>
+            </a>
+        </nav>
     </header>
 
-    <a id="back-to-top" href="#top">
-        <button >
-            &uarr;
-        </button>
-    </a>
-
-
-    <main id="content">
-
-        <section id="services" class="section">
+    <aside>
+        <div class="aside-content">
             <h2>
-                Development Services We Specialize in:
+                Quick Navigation
             </h2>
-            <article class="service">
-                <h3> Web Development </h3>
+            <ul>
+                <a class="aside-link" href="#categories">Categories</a> 
+                <br>
+                <a class="aside-link" href="#sponsored">Top brands</a>
+                <br>
+                <a class="aside-link" href="#footer">To Bottom</a>
+            </ul>
+        </div>
+    </aside>
+    <!-- Main -->
+    <main>
+
+        <section class="main-content">
+
+            <section>
+                <h2>Categories</h2>
+
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nam voluptatem officiis
-                    quibusdam praesentium. Cupiditate sint aliquam minima sequi voluptatum qui, provident cum, maiores
-                    consectetur nam, beatae quam officia rerum!s
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia porro aut exercitationem dolorum! Aliquam sequi odio beatae hic maxime, fuga quia distinctio. A, debitis soluta recusandae nisi magnam dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quisquam dolores facilis autem possimus veritatis! Odio non laborum quia, magnam iste cum eaque dolorem nam? Impedit perferendis doloremque nulla non.
+            
+                    <br>
+                    <br>
+
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repellendus nobis quibusdam accusantium consequatur tempora, debitis ratione vero, rerum placeat inventore facere. Aperiam accusantium fuga saepe rem, unde iure sint. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero possimus minima odio ipsa voluptatibus rerum necessitatibus eaque dignissimos eius? Necessitatibus dolorem reiciendis corporis totam cumque ut debitis culpa dolorum ab!
                 </p>
-            </article>
 
-            <article class="service">
-                <h3> Mobile Development </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nam voluptatem officiis
-                    quibusdam praesentium. Cupiditate sint aliquam minima sequi voluptatum qui, provident cum, maiores
-                    consectetur nam, beatae quam officia rerum!s
-                </p>
-            </article>
-
-            <article class="service">
-                <h3> System Development </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nam voluptatem officiis
-                    quibusdam praesentium. Cupiditate sint aliquam minima sequi voluptatum qui, provident cum, maiores
-                    consectetur nam, beatae quam officia rerum!s
-                </p>
-            </article>
-        </section>
-
-        <section id="about" class="section">
-            <h2>
-                About Us:
-            </h2>
-
-            <div id="about-content">
-
-                <div>
-                    <h3>Founded</h3>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio illum doloribus velit blanditiis
-                        deserunt
-                        vitae. Veniam modi nesciunt qui quo. Nam eveniet sint placeat facilis nulla soluta quidem vitae.
-                        Delectus!
-                    </p>
+                <div id="categories" class="categories">
+                    <div class="category">
+                        <h4>TV's & Electronics</h4>
+                    </div>
+                    <div class="category">
+                        <h4>Lounge and Furniture</h4>
+                    </div>
+                    <div class="category row-span-2">
+                        <h4>Appliances</h4>
+                    </div>
+                    <div class="category col-span-2">
+                        <h4>Bedroom Decor</h4>
+                    </div>
+                    <div class="category">
+                        <h4>Bathroom & Plumning</h4>
+                    </div>
+                    <div class="category">
+                        <h4>Kitchen</h4>
+                    </div>
+                    <div class="category">
+                        <h4>Outdoors and Garden</h4>
+                    </div>
                 </div>
 
-                <div>
-                    <h3>
-                        Specializations
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui dolore similique corporis.
-                        Similique
-                        quis cum dolore repellat quod ipsum ex enim culpa sed, praesentium quia facere. Ex, dolorum
-                        nobis?
-                    </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia porro aut exercitationem dolorum! Aliquam sequi odio beatae hic maxime, fuga quia distinctio. A, debitis soluta recusandae nisi magnam dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quisquam dolores facilis autem possimus veritatis! Odio non laborum quia, magnam iste cum eaque dolorem nam? Impedit perferendis doloremque nulla non.
+            
+                    <br>
+                    <br>
 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repellendus nobis quibusdam accusantium consequatur tempora, debitis ratione vero, rerum placeat inventore facere. Aperiam accusantium fuga saepe rem, unde iure sint. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero possimus minima odio ipsa voluptatibus rerum necessitatibus eaque dignissimos eius? Necessitatibus dolorem reiciendis corporis totam cumque ut debitis culpa dolorum ab!
+                </p>
+
+            </section>
+
+            <article class="section" id="sponsored">
+
+                <h2>
+                    Featured Brands and Partners
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia porro aut exercitationem dolorum! Aliquam sequi odio beatae hic maxime, fuga quia distinctio. A, debitis soluta recusandae nisi magnam dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quisquam dolores facilis autem possimus veritatis! Odio non laborum quia, magnam iste cum eaque dolorem nam? Impedit perferendis doloremque nulla non.
+            
+                    <br>
+                    <br>
+
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repellendus nobis quibusdam accusantium consequatur tempora, debitis ratione vero, rerum placeat inventore facere. Aperiam accusantium fuga saepe rem, unde iure sint. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero possimus minima odio ipsa voluptatibus rerum necessitatibus eaque dignissimos eius? Necessitatibus dolorem reiciendis corporis totam cumque ut debitis culpa dolorum ab!
+                </p>
+
+                <div class="sponsors">
+   
+                    <div>
+                        <h4>Lowsense</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
+                    <div>
+                        <h4>Lowsense</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
+                    
+                    <div class="col-span-2">
+                        <h4>Lowsense</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
+
+                    <div>
+                        <h4>Defi</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
+
+                    <div class="col-span-2">
+                        <h4>Rennett Bead</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
+                    <div>
+                        <h4>Rennett Bead</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
+                    
+                    <div class="col-span-2">
+                        <h4>Comfort Lane</h4>
+                        <img src="./image/code.png" alt="icon" width="64" width="64">
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
+            </article>
 
         </section>
 
-
+    
     </main>
 
+    <!-- Footor -->
     <footer id="footer">
-        <nav id="footer-links">
-            <a class="nav-link" href="#services">Our Services</a> |
-            <a class="nav-link" href="#about">About Us</a> |
-            <a class="nav-link" href="projects">Project We Have Worked On</a>
-        </nav>
-        <h2>Super Software</h2>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit eum nulla hic harum vel eligendi natus fugiat
-            iusto quaerat pariatur nobis ea exercitationem enim ipsam unde perspiciatis, totam earum maiores.
-        </p>
-        <h4>
-            Socials:
-        </h4>
-        <p>
-            <button>LinkedIn</button>
-            <button>Facebook</button>
-            <button>Glassdoor</button>
-        </p>
+        <div>
+            <span>
+                <b>Address</b> <br>
+                lorem ipsum io
+            </span>
+            
+        </div>
+        <div>
+            <span>
+                <b>Email</b> <br>
+                @some.com
+            </span>
+        </div>
+        <div>
+            <span>
+                <b>Tel No</b> <br>
+                0832350243830
+            </span>
+        </div>
+        <div>
+            <span>
+                <b>Socials</b> <br>
+                lorem ipsum io
+            </span>
+        </div>
+        <div class="col-span-2">
+            <img src="./image/icon.svg" alt="icon" width="50">
+        </div>
     </footer>
 </body>
 
